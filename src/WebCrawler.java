@@ -1,3 +1,16 @@
+// зк
+
+/** % https://www.cs.princeton.edu
+ https://www.cs.princeton.edu
+ http://www.w3.org
+ http://drupal.org
+ http://www.princeton.edu
+ http://csguide.cs.princeton.edu
+ https://www.facebook.com
+ https://twitter.com
+ https://www.linkedin.com
+ */
+
 import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.StdOut;
 
@@ -48,7 +61,7 @@ public class WebCrawler {
                 String w = matcher.group();
                 if (!marked.contains(w)) {
                     marked.add(w);
-                    queue.add(w)
+                    queue.add(w);
                 }
             }
         }
